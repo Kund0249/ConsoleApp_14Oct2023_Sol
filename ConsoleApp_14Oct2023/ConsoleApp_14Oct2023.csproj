@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp_14Oct2023.OOPS.StartUp</StartupObject>
+    <StartupObject>ConsoleApp_14Oct2023.ControlStatement.SwitchCaseDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ControlStatement\Startup.cs" />
+    <Compile Include="ControlStatement\SwitchCaseDemo.cs" />
     <Compile Include="OOPS\Employee.cs" />
     <Compile Include="OOPS\StartUp.cs" />
     <Compile Include="Program.cs" />
