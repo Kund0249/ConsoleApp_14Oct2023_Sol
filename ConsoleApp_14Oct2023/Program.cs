@@ -8,21 +8,16 @@ namespace ConsoleApp_14Oct2023
 {
     class Program
     {
-        int b;
-        public void Funcion1(int a)
-        {
-            b = 10;
-        }
+        public readonly int _readonly = 10;
+        public const int _constant = 20;
         static void Main(string[] args)
         {
             Program program = new Program();
-            program.b = 10;
+            //program.b = 10;
 
-            Program program2 = new Program();
-            program2.b = 20;
-
-            Console.WriteLine($"program instance b : {program.b}");
-            Console.WriteLine($"program2 instance b : {program2.b}");
+            
+            Console.WriteLine($"program readonly  : {program._readonly}");
+            Console.WriteLine($"program2 constant  : {_constant}");
         }
     }
 }

@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp_14Oct2023.ControlStatement.SwitchCaseDemo</StartupObject>
+    <StartupObject>ConsoleApp_14Oct2023.ControlStatement.IterationStatement.DowhileLoop</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ControlStatement\IterationStatement\DowhileLoop.cs" />
+    <Compile Include="ControlStatement\IterationStatement\forloop.cs" />
+    <Compile Include="ControlStatement\IterationStatement\Pattern\Pattern1.cs" />
+    <Compile Include="ControlStatement\IterationStatement\WhileLoopDemo.cs" />
     <Compile Include="ControlStatement\Startup.cs" />
     <Compile Include="ControlStatement\SwitchCaseDemo.cs" />
     <Compile Include="OOPS\Employee.cs" />

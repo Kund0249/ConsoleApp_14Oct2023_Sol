@@ -10,8 +10,10 @@ namespace ConsoleApp_14Oct2023
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello from Program2");
-            Console.ReadKey();
+            Program program = new Program();
+
+            Console.WriteLine($"program readonly  : {program._readonly}");
+            Console.WriteLine($"program2 constant  : {Program._constant}");
         }
     }
 }
