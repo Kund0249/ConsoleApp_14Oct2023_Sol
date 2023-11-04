@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp_14Oct2023.ControlStatement.IterationStatement.DowhileLoop</StartupObject>
+    <StartupObject>ConsoleApp_14Oct2023.Methods.Startup</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -53,6 +53,10 @@
     <Compile Include="ControlStatement\IterationStatement\WhileLoopDemo.cs" />
     <Compile Include="ControlStatement\Startup.cs" />
     <Compile Include="ControlStatement\SwitchCaseDemo.cs" />
+    <Compile Include="Methods\MathClient.cs" />
+    <Compile Include="Methods\MethodExample.cs" />
+    <Compile Include="Methods\Startup.cs" />
+    <Compile Include="OOPS\Department.cs" />
     <Compile Include="OOPS\Employee.cs" />
     <Compile Include="OOPS\StartUp.cs" />
     <Compile Include="Program.cs" />
@@ -63,5 +67,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp_14Oct2023.OOPS
 {
-    public class Employee
+     class Employee
     {
          int EmpCode;
          string Name;

@@ -19,6 +19,7 @@ namespace ConsoleApp_14Oct2023.ControlStatement.IterationStatement
                 Console.Write("Enter Value 2 : ");
                 int V2 = int.Parse(Console.ReadLine());
 
+                SelectOperator: //lable
                 Console.Write("select => [+ , - , / , *] : ");
                 char _operator = Console.ReadKey().KeyChar;
                 Console.WriteLine();
@@ -38,7 +39,8 @@ namespace ConsoleApp_14Oct2023.ControlStatement.IterationStatement
                         break;
                     default:
                         Console.WriteLine("Opps! incorrect input or operator entered!");
-                        break;
+                        goto SelectOperator;
+                        //break;
                 }
 
                 Console.Write("Press Y to continue : ");
