@@ -14,6 +14,7 @@ namespace ConsoleApp_14Oct2023.Methods
            
 
             MethodExample example = new MethodExample();
+            MathClient client = new MathClient();
 
             #region Call By Value
 
@@ -39,13 +40,39 @@ namespace ConsoleApp_14Oct2023.Methods
 
             #region Call By Ref
 
-            int N = 0;
-            example.Counter(ref N);
+            //int N = 0;
+            //example.Counter(ref N);
 
-            Console.WriteLine("N = " + N);
+            //Console.WriteLine("N = " + N);
 
             #endregion
 
+            #region Out Parameter
+            //client.Rectangle(10,5,out int P,out int A);
+            ////int P, A;
+            ////A = P = 0;
+            ////client.Rectangle(10, 5, ref P, ref A);
+            //Console.WriteLine("Paremeter : {0} , Area : {1}",P,A);
+
+            //if (client.ConvertToInt("10",out int Value))
+            // {
+            //     Console.WriteLine("Converted Value: " + Value);
+            // }
+            // else
+            // {
+            //     Console.WriteLine("Input string was not in correct format!");
+            // }
+            #endregion
+
+            #region Params Array
+            ////int[] Values = new int[3] { 10, 20, 30 };
+            //int Res = client.Add(10,20,30,40,50);
+            //Console.WriteLine("Result : "+ Res);
+            #endregion
+
+            #region Optional Parameter
+            Notifier.Notify("Success", "Process Completed!",TextColor:"White",BackGroundColor:"Green");
+            #endregion
         }
     }
 }

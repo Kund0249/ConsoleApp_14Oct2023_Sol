@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp_14Oct2023.Methods.Startup</StartupObject>
+    <StartupObject>ConsoleApp_14Oct2023.ArrayExample.MultiDimensionArray</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArrayExample\MultiDimensionArray.cs" />
+    <Compile Include="ArrayExample\SingleDimensionArray.cs" />
     <Compile Include="ControlStatement\IterationStatement\DowhileLoop.cs" />
     <Compile Include="ControlStatement\IterationStatement\forloop.cs" />
     <Compile Include="ControlStatement\IterationStatement\Pattern\Pattern1.cs" />
@@ -55,6 +57,7 @@
     <Compile Include="ControlStatement\SwitchCaseDemo.cs" />
     <Compile Include="Methods\MathClient.cs" />
     <Compile Include="Methods\MethodExample.cs" />
+    <Compile Include="Methods\Notifier.cs" />
     <Compile Include="Methods\Startup.cs" />
     <Compile Include="OOPS\Department.cs" />
     <Compile Include="OOPS\Employee.cs" />
