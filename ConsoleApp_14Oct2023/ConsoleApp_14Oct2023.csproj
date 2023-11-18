@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp_14Oct2023.ArrayExample.MultiDimensionArray</StartupObject>
+    <StartupObject>ConsoleApp_14Oct2023.OOPS.StartUp</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -59,8 +59,14 @@
     <Compile Include="Methods\MethodExample.cs" />
     <Compile Include="Methods\Notifier.cs" />
     <Compile Include="Methods\Startup.cs" />
+    <Compile Include="OOPS\Class_Object\Employee.cs" />
+    <Compile Include="OOPS\Class_Object\Startup.cs" />
     <Compile Include="OOPS\Department.cs" />
     <Compile Include="OOPS\Employee.cs" />
+    <Compile Include="OOPS\Encapsulation\Employee.cs" />
+    <Compile Include="OOPS\Inheritance\GoldLoan.cs" />
+    <Compile Include="OOPS\Inheritance\HomeLoan.cs" />
+    <Compile Include="OOPS\Inheritance\Loan.cs" />
     <Compile Include="OOPS\StartUp.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Program2.cs" />
