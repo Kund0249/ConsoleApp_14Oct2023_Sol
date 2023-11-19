@@ -33,9 +33,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp_14Oct2023.OOPS.StartUp</StartupObject>
+    <StartupObject>ConsoleApp_14Oct2023.OOPS.Polimorphism.MethodOverriding</StartupObject>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="kcorlib">
+      <HintPath>..\..\kcorlib\kcorlib\bin\Debug\kcorlib.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Net" />
@@ -67,6 +70,9 @@
     <Compile Include="OOPS\Inheritance\GoldLoan.cs" />
     <Compile Include="OOPS\Inheritance\HomeLoan.cs" />
     <Compile Include="OOPS\Inheritance\Loan.cs" />
+    <Compile Include="OOPS\Polimorphism\MethodOverLoading_Demo.cs" />
+    <Compile Include="OOPS\Polimorphism\MethodOverriding.cs" />
+    <Compile Include="OOPS\Polimorphism\Startup.cs" />
     <Compile Include="OOPS\StartUp.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Program2.cs" />
