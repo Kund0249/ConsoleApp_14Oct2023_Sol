@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp_14Oct2023.OOPS.Polimorphism.MethodOverriding</StartupObject>
+    <StartupObject>ConsoleApp_14Oct2023.OOPS.Abstraction.Startup</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="kcorlib">
@@ -62,6 +62,13 @@
     <Compile Include="Methods\MethodExample.cs" />
     <Compile Include="Methods\Notifier.cs" />
     <Compile Include="Methods\Startup.cs" />
+    <Compile Include="OOPS\Abstraction\CSVReader.cs" />
+    <Compile Include="OOPS\Abstraction\ExcelReader.cs" />
+    <Compile Include="OOPS\Abstraction\IFileReader.cs" />
+    <Compile Include="OOPS\Abstraction\Mobile.cs" />
+    <Compile Include="OOPS\Abstraction\Samsung.cs" />
+    <Compile Include="OOPS\Abstraction\Startup.cs" />
+    <Compile Include="OOPS\Abstraction\TextReader.cs" />
     <Compile Include="OOPS\Class_Object\Employee.cs" />
     <Compile Include="OOPS\Class_Object\Startup.cs" />
     <Compile Include="OOPS\Department.cs" />

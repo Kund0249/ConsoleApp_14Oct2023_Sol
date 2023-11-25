@@ -38,7 +38,7 @@ namespace ConsoleApp_14Oct2023.OOPS
             //employee.EmpName("John");
             //employee.EmpSalary(1000);
 
-
+            Console.WriteLine();
 
         }
     }
