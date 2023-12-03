@@ -58,7 +58,11 @@
     <Compile Include="ControlStatement\IterationStatement\WhileLoopDemo.cs" />
     <Compile Include="ControlStatement\Startup.cs" />
     <Compile Include="ControlStatement\SwitchCaseDemo.cs" />
+    <Compile Include="DelegatesExample\Class1.cs" />
+    <Compile Include="DelegatesExample\Repository.cs" />
+    <Compile Include="DelegatesExample\Startup.cs" />
     <Compile Include="ExceptionHandling\Statusp.cs" />
+    <Compile Include="FileHandling\Startup.cs" />
     <Compile Include="Generic\ArrayListExample.cs" />
     <Compile Include="Generic\DictionaryDemo.cs" />
     <Compile Include="Generic\Employee.cs" />
