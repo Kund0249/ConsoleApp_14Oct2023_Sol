@@ -53,6 +53,10 @@ namespace ConsoleApp_14Oct2023.Generic
             employees.Add(new Employee() { Id = 1, Name = "A" });
             employees.Add(new Employee() { Id = 2, Name = "B" });
 
+            Employee employees1 = employees.FirstOrDefault(x => x.Id == 1);
+            // employees.RemoveWhere(x => x.Id == 1);
+            employees.Remove(employees1);
+
             foreach (Employee item in employees)
             {
                 Console.WriteLine("Id : " + item.Id + " Name : " + item.Name);

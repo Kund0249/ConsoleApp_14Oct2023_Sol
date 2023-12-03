@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp_14Oct2023.Generic.HashSet_Demo</StartupObject>
+    <StartupObject>ConsoleApp_14Oct2023.ExceptionHandling.Statusp</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="kcorlib">
@@ -58,10 +58,14 @@
     <Compile Include="ControlStatement\IterationStatement\WhileLoopDemo.cs" />
     <Compile Include="ControlStatement\Startup.cs" />
     <Compile Include="ControlStatement\SwitchCaseDemo.cs" />
+    <Compile Include="ExceptionHandling\Statusp.cs" />
     <Compile Include="Generic\ArrayListExample.cs" />
+    <Compile Include="Generic\DictionaryDemo.cs" />
     <Compile Include="Generic\Employee.cs" />
     <Compile Include="Generic\HashSet_Demo.cs" />
     <Compile Include="Generic\ListDemo.cs" />
+    <Compile Include="Generic\Queue.cs" />
+    <Compile Include="Generic\StackDemo.cs" />
     <Compile Include="Generic\Startup.cs" />
     <Compile Include="Methods\MathClient.cs" />
     <Compile Include="Methods\MethodExample.cs" />
